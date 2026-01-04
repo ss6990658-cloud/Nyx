@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYX — calm mind, soft life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:'Poppins',sans-serif;
+      background:#ffffff;
+      color:#333;
+      line-height:1.7;
+    }
+    header{
+      padding:4rem 1.5rem 3rem;
+      text-align:center;
+      background:#faf6f2;
+    }
+    header h1{
+      font-family:'Playfair Display',serif;
+      font-size:2.6rem;
+      letter-spacing:2px;
+    }
+    header p{
+      margin-top:.7rem;
+      font-size:.95rem;
+      color:#777;
+    }
+    section{
+      max-width:900px;
+      margin:auto;
+      padding:3rem 1.5rem;
+    }
+    h2{
+      font-family:'Playfair Display',serif;
+      font-size:1.7rem;
+      margin-bottom:1.8rem;
+      text-align:center;
+    }
+    .card-grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:1.2rem;
+    }
+    .card{
+      background:#faf6f2;
+      padding:1.6rem;
+      border-radius:18px;
+      text-align:center;
+      font-size:.95rem;
+    }
+    .selfcare{
+      background:#fff;
+      border:1px solid #eee;
+    }
+    .pin-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:1.1rem;
+    }
+    .pin{
+      height:180px;
+      border-radius:20px;
+      background:linear-gradient(135deg,#f7ede2,#f3e5f5);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      padding:1rem;
+      font-size:.9rem;
+      color:#555;
+    }
+    footer{
+      text-align:center;
+      padding:2.5rem 1.5rem;
+      font-size:.8rem;
+      color:#aaa;
+    }
+    @media(min-width:600px){
+      .card-grid{grid-template-columns:repeat(2,1fr)}
+      .pin-grid{grid-template-columns:repeat(3,1fr)}
+    }
+  </style>
+</head>
+<body><header>
+  <h1>NYX</h1>
+  <p>calm thoughts · soft healing · quiet confidence</p>
+</header><section>
+  <h2>Daily Affirmations</h2>
+  <div class="card-grid">
+    <div class="card">I am safe, grounded, and protected.</div>
+    <div class="card">My mind is calm and clear.</div>
+    <div class="card">I allow peace into every moment.</div>
+    <div class="card">I am becoming my best self gently.</div>
+  </div>
+</section><section>
+  <h2>Self-Care Reminders</h2>
+  <div class="card-grid">
+    <div class="card selfcare">Drink water and slow down.</div>
+    <div class="card selfcare">Rest is productive.</div>
+    <div class="card selfcare">Your pace is enough.</div>
+    <div class="card selfcare">Breathe. You are doing fine.</div>
+  </div>
+</section><section>
+  <h2>Pinterest Content</h2>
+  <div class="pin-grid">
+    <div class="pin">Affirmation Pins</div>
+    <div class="pin">Aesthetic Quotes</div>
+    <div class="pin">Calm Wallpapers</div>
+    <div class="pin">Soft Life Tips</div>
+    <div class="pin">Healing Notes</div>
+    <div class="pin">Minimal Moodboards</div>
+  </div>
+</section><footer>
+  © 2026 NYX · created with calm energy ✨
+</footer></body>
+</html>
